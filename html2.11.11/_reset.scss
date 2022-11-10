@@ -1,0 +1,13 @@
+body {
+    margin: 0px;
+}
+
+div {
+    box-sizing: border-box;
+}
+
+$메인컬러 : brown;
+
+@mixin name2() {
+    width: 20px;
+}
