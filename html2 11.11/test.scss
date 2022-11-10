@@ -1,0 +1,149 @@
+@use '_reset';
+
+/*수도 엘리멘츠. 문장 앞뒤에 단어 생성 및 설정*/
+::before {
+
+}
+
+@mixin name($whole) {
+    font-size: $whole;
+    letter-spacing: -1px;
+}
+h2 {
+    @include name(30px);
+    color : reset.$메인컬러;
+    
+}
+h3 {
+    @include name(20px)
+}
+h4 {
+    font-size: 10px;
+    letter-spacing: -1px;
+}
+
+/*%는 임시클래스=컴파일(변환)이 없음*/%btn {
+    width: 100px;
+    height: 100px;
+    padding: 20px;
+}
+.btn-green {
+    @extend %btn;
+    color: green;
+}
+.btn-red {
+    @extend %btn;
+    color: red;
+}
+.btn-blue {
+    @extend %btn;
+    color: blue;
+}
+
+.main-bg h4 {
+    font-size: 16px;
+}
+.main-bg button {
+    color : red;
+}
+/*nesting*/.main-bg {
+    h4 {
+        font-size: 16px;
+    }
+    button {
+        color: red;
+    }
+}
+$main-color : #2a4cb2;
+$sub-color : #eeeeee;
+$기본사이즈 : 16px;
+
+.background {
+    background-color: $main-color;
+    font-size: ($기본사이즈 - 2px);
+}
+.box {
+    color: $main-color;
+    font-size: ($기본사이즈 + 2px);
+}
+
+
+.sh-list {
+    li {
+    list-style: none;
+    padding: 15px;
+    border: 1px solid #eee;
+    }
+}
+.active {
+    color: white;
+    background: skyblue;
+}
+.active:hover {
+    background: #2a4cb2;
+}
+
+.alert-box-green {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #eee;
+    background: green;
+    color: white;
+}
+.alert-box-yellow {
+    @extend .alert-box-green;
+    background: orange;
+    
+}
+.alert-box-blue {
+   @extend .alert-box-green;
+    background: skyblue;
+    
+}
+
+.row .col-6 {
+    float: left;
+    width: 50%;
+    padding: 15px;
+}
+
+
+@mixin column($구멍) {
+    float: left;
+    width: $구멍;
+    padding: 15px;
+    @media screen and(max-width : 778px) {
+        width: $구멍;
+    }
+}
+
+.row .col-6 {
+    @include column(50%)
+}
+.row .col-3 {
+    @include column(25%)
+}
+
+@mixin name3($a) {
+    .row .col- {
+    width: ($a)/12*100%;
+    float: left;
+    padding: 15px;
+    }
+}
+
+.row .col-1 {
+    @include name3(1)
+}
+.row .col-2 {
+    @include name3(2)
+}
+.row .col-3 {
+    @include name3(3)
+}
+.row .col-4 {
+    @include name3(4)
+}
+.row .col-6 {
+    @include name3(6)
+}
