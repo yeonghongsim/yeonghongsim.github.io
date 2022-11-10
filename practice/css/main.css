@@ -1,0 +1,421 @@
+div, input, textarea {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+}
+
+h1 {
+    font-size: 30px;
+}
+
+h4 {
+    font-size: 22px;
+}
+
+.form-background {
+    padding: 30px;
+    background-color: black;
+}
+
+.form-white {
+    padding: 30px;
+    background-color: white;
+    width: 100%;
+    max-width: 600px;
+    margin: auto;
+}
+
+.form-input {
+    padding: 10px;
+    font-size: 20px;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.w-50 {
+    width: 50%;
+    float: left;
+    padding: 10px;
+}
+
+.w-100 {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+.yellow-button {
+    background-color: yellow;
+    padding: 10px;
+    border-radius: 5px;
+    display: block;
+    margin-left: auto;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+td,th {
+    /*border: 1px solid black;*/
+}
+
+.cart-table td, .cart-table th {
+    padding: 15px;
+    border-bottom: 1px solid #c2d3de;
+}
+
+.cart-background {
+    width: 100%;
+    background-color: #c2d3de;
+    padding: 30px;
+    color: aqua;
+}
+
+.cart-table {
+    width: 100%;
+    max-width: 700px;
+    margin: auto;
+    background: white;
+    border-radius: 10px;
+}
+
+.cart-table th:nth-child(2) {
+    width: 400px;
+}
+
+.cart-button {
+    background-color: aquamarine;
+    border: none;
+    padding: 10px;
+    color: black;
+    border-radius: 5px;
+    margin-left: auto;
+    display: block;
+}
+
+.btn {
+    padding: 15px;
+    font-size: 20px;
+    border: none;
+    border-radius: 10px;
+    background-color: coral;
+    color: white;
+    cursor: pointer;
+}
+
+.btn1:hover {
+    background-color: blueviolet;
+}
+
+.btn1:active {
+    background-color:blanchedalmond;
+}
+.main-btn {
+    padding: 15px;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.bg-red {
+    background: red;
+}
+
+.bg-blue {
+    background: blue;
+}
+
+body {
+    margin: 0px;
+    font-family: 이쁜폰트;
+    font-weight: 100;
+}
+@font-face {
+    font-family: '이쁜폰트';
+    src : url(../font/NanumSquareAcB.woff)
+}
+
+.flex-item {
+    width: 100px;
+    height: 100px;
+    background-color: gray;
+    margin: 5px;
+}
+
+.nav-container {
+    display: flex;
+    height: 40px;
+    align-items: center;
+    padding: 5px;
+}
+
+.nav-item {
+    margin-right: 5px;
+}
+
+.main-button {
+    width: 150px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    background: white;
+    font-size: 20px;
+    position: absolute;
+}
+
+.main-title {
+   font-size: 40px;
+   margin-top: 50px;
+}
+
+.main-background {
+    background-image: url(../img/shoes.jpeg);
+    color: white;
+    text-align: center;
+    width: 100%;
+    height: 500px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 1px;
+    position: relative;
+}
+
+.main-background p {
+    font-size: 20px;
+}
+.work {
+    width: 80%;
+    max-width: 1000px;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 20px;
+}
+
+.work-items {
+    color: black;
+}
+
+.work div{
+    float: left;
+    width: 25%;
+}
+
+@media screen and (max-width: 1200px){
+    .work div {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 768px){
+   .work div {
+    width: 100%;
+   }
+    }
+
+@media screen and (max-width: 576px){
+ 
+}
+
+.explainbox-black {
+    width: 80%;
+    height: 150px;
+    background-color: burlywood;
+    position: absolute;
+    bottom: 120px;
+    display: block;
+    left: 0;
+    right: 0;
+    margin: auto;
+    text-align: center;
+}
+
+.iphone-background {
+    background-image: linear-gradient(to bottom, #499add, #4e61c0);
+    height: 550px;
+    padding: 20px;
+    color: white;
+}
+
+.iphone-container {
+    max-width: 1200px;
+    margin :auto;
+}
+
+.iphone-text {
+    margin-top: 50px;
+    float: left;
+}
+
+.iphone-img {
+    width: 400px;
+    float: right;
+    margin-top: 95px;
+}
+
+.btn1 {
+    padding: 20px;
+    font-size: 20px;
+    border-radius: 5px;
+    border: 1px solid black;
+    color: white;
+}
+
+.btn-black {
+    background-color: black;
+}
+@media screen and (max-width: 992px) {
+    .iphone-text {
+        text-align: center;
+        float: none;
+        margin-top: 50px;
+    }
+    .iphone-img {
+        width: 260px;
+        display: block;
+        float: none;
+        margin: auto;
+        margin-top: 42px;
+    }
+    .services-item {
+        display: flex;
+        flex-direction: column;
+    }
+    .services-item div {
+        margin: auto;
+    }
+    .portfolio-container {
+        display: flex;
+        flex-direction: column;
+    }
+    .portfolio-container div {
+        margin: auto;
+    }
+}
+
+.content-box {
+    text-align: center;
+    padding: 20px;
+}
+
+.services {
+    background-color: #4e61c0;
+    color: white;
+    text-align: center;
+    padding: 60px;
+    width: 100%;
+}
+
+.services-head p {
+    margin-bottom: 0px;
+}
+
+.services-head h4 {
+    margin-top: 0px;
+}
+
+.services-icon {
+    color: #4e61c0;
+    background-color: white;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+.services h5 {
+    margin-bottom: 0px;
+}
+.services p {
+    font-size: 10px;
+}
+
+.services-item {
+    display: flex;
+}
+
+.services-item div {
+    width: 25%;
+}
+
+.portfolio {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    text-align: center;
+}
+.portfolio-head {
+    text-align: center;
+}
+
+.portfolio-head p {
+    margin-bottom: 0px;
+    color: bisque;
+}
+.portfolio h1 {
+    margin-top: 0px;
+}
+.portfolio-item1 {
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(/img/portfolio-1.jpeg);
+    float: left;
+    width: 50%;
+    height: 350px;
+    background-size: cover;
+}
+.portfolio-item2 {
+    background-image: url(/img/portfolio-2.jpeg);
+    float: left;
+    width: 50%;
+    height: 350px;
+    background-size: cover;
+}
+.portfolio-item3 {
+    background-image: url(/img/portfolio-3.jpeg);
+    float: left;
+    width: 50%;
+    height: 350px;
+    background-size: cover;
+}
+.portfolio-item4 {
+    background-image: url(/img/portfolio-4.jpeg);
+    float: left;
+    width: 50%;
+    height: 350px;
+    background-size: cover;
+}
+.portfolio-text {
+    width: 100%;
+    color: white;
+    padding: 50px;
+}
+.portfolio-container {
+    text-align: left;
+    max-width: 1200px;
+    margin: auto;
+}
+.portfolio-white {
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    position: absolute;
+    border: 0px solid white;
+    transition: all 1s;
+}
+.portfolio-white:hover {
+    border: 30px solid white;
+}
+.portfolio-item1 {
+    position: relative;
+}
+
+.profile-container {
+    background-color: #f7f9fc;
+    padding: 20px;
+}
