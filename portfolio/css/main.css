@@ -1,0 +1,184 @@
+body {
+    margin: 0px;
+    font-size: 12px;
+  }
+  .container {
+    width: 60%;
+    margin: auto;
+  }
+
+  .area1 {
+    width: 100%;
+    height: 15vh;
+  }
+  .area2 {
+    width: 100%;
+    height: 10vh;
+  }
+  .area3 {
+    width: 65%;
+    height: 2000px;
+    float: left;
+  }
+  .area4-bg {
+    width: 35%;
+    height: 2000px;
+    float: left;
+  }
+  .area4 {
+    width: 100%;
+    height: 1500px;
+    position: sticky;
+    top: 0px;
+  }
+  .area5 {
+    width: 100%;
+    height: 10vh;
+  }
+  .area6 {
+    width: 100%;
+    height: 15vh;
+  }
+  .area7 {
+    width: 65%;
+    height: 10vh;
+    background-color: black;
+  }
+  .area8 {
+    width: 100%;
+    height: 10vh;
+  }
+  .area9 {
+    width: 10%;
+    height: 10vh;
+    background-color: purple;
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+  }
+  .area1-1 {
+    width: 20%;
+    background-color: aqua;
+  }
+  .area1-2 {
+    width: 50%;
+    background-color: darkgoldenrod;
+  }
+  .area1-3 {
+    width: 30%;
+    background-color: blue;
+  }
+  .area2-1 {
+    width: 70%;
+    background-color: red;
+  }
+  .area2-2 {
+    width: 30%;
+    background-color: purple;
+  }
+  .area3-1 {
+    height: 10%;
+    background-color: darkblue;
+  }
+  .area3-2 {
+    height: 10%;
+    background-color: darkcyan;
+  }
+  .area3-3 {
+    height: 10%;
+    background-color: darkgoldenrod;
+  }
+  .area3-4 {
+    height: 20%;
+    background-color: darkgreen;
+  }
+  .area3-5 {
+    height: 10%;
+    background-color: darkkhaki;
+  }
+  .area3-6 {
+    height: 20%;
+    background-color: darkolivegreen;
+  }
+  .area3-7 {
+    height: 20%;
+    background-color: darkred;
+  }
+  .area4-1 {
+    height: 10%;
+    background-color: lawngreen;
+  }
+  .area4-2 {
+    height: 10%;
+    background-color: lightcoral;
+  }
+  .area4-3 {
+    height: 10%;
+    background-color: lightgreen;
+  }
+  .area4-4 {
+    height: 40%;
+    background-color: lightseagreen;
+  }
+  .area4-5 {
+    height: 10%;
+    background-color: lime;
+  }
+  .area4-6 {
+    height: 10%;
+    background-color: lightcoral;
+  }
+  .area4-7 {
+    height: 10%;
+    background-color: lawngreen;
+  }
+  .area5-1 {
+    width: 65%;
+    background-color: darkgoldenrod;
+  }
+  .area5-2 {
+    width: 35%;
+    background-color: darkred;
+  }
+  .area6-1 {
+    width: 65%;
+    background-color: lightgreen;
+  }
+  .area6-2 {
+    width: 35%;
+    background-color: lightcoral;
+  }
+  .area4-sticky {
+    height: 1500px;
+    position: sticky;
+    top: 0px;
+  }
+  .footer-bg {
+    width: 65%;
+   height: 10vh;
+ }
+ .footer-item {
+   padding: 5px;
+ }
+ .footer-item::before {
+   content: '';
+   display: inline-block;
+   vertical-align: middle;
+   height: 100%;
+ }
+ .footer-bg>span>a {
+   text-decoration: none;
+ }
+ .footer-item_1 {
+   color: gray;
+ }
+ .footer-item_2 {
+   color: gray;
+   font-weight: bold;
+ }
+ .footer-item_3 {
+   color: black;
+ }
+ .footer-bg>span>a:hover {
+   text-decoration: underline;
+ }
