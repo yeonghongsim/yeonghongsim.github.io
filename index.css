@@ -1,0 +1,254 @@
+.container-full {
+    width: 100%;
+    background: linear-gradient(#D7BBF5, #A076F9);
+    position: absolute;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+.pointer {
+    color: blue;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+
+.header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+}
+
+.title {
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+.body {
+    margin-top: 12vh;
+    min-height: 80vh;
+}
+
+.body>div {
+    width: 100%;
+    height: 220px;
+    background-color: snow;
+    border-radius: 8px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    box-shadow: 3px 3px 3px 1px rgba(87, 77, 173, 0.3);
+}
+
+.common-ul {
+    margin-left: 1rem;
+}
+
+.common-ul>li {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.profile {
+    display: flex;
+}
+
+.profile>div:nth-child(1) {
+    width: 15%;
+}
+
+.profile-intro>div {
+    display: flex;
+    height: 50%;
+}
+
+.profile-intro>div>div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+
+.profile>div:nth-child(2) {
+    width: 85%;
+}
+
+.profile-img>img {
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+}
+
+
+
+.project>div:nth-child(1) {
+    height: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.project>div:nth-child(2) {
+    height: 70%;
+}
+
+.footer {
+    height: 10vh;
+    background-color: #A78295;
+}
+
+.modal-background {
+    background-color: rgba(0, 0, 0, .3);
+    display: none;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 15px;
+}
+
+.modal-container {
+    width: 80%;
+    height: 50%;
+    margin: auto;
+    background-color: white;
+    border-radius: 8px;
+    padding: 16px;
+    box-shadow: 5px 10px 10px 1px rgba(0, 0, 0, .3);
+}
+
+.modal-content {
+    width: 100%;
+    height: 80%;
+}
+
+.modal-content>div:nth-child(1) {
+    display: flex;
+    height: 20%;
+}
+
+.modal-content>div:nth-child(1)>div:nth-child(1) {
+    width: 10%;
+}
+
+.modal-content>div:nth-child(1)>div:nth-child(2) {
+    width: 90%;
+    padding: 4px;
+}
+
+.modal-content>div:nth-child(1)>div:nth-child(2)>input {
+    width: 100%;
+    height: 100%;
+    border: 1px solid #eee;
+    border-radius: 4px;
+}
+
+.modal-content>div:nth-child(2) {
+    display: flex;
+    height: 80%;
+}
+
+.modal-content>div:nth-child(2)>div:nth-child(1) {
+    width: 10%;
+}
+
+.modal-content>div:nth-child(2)>div:nth-child(2) {
+    width: 90%;
+    padding: 4px;
+}
+
+.modal-content>div:nth-child(2)>div:nth-child(2)>textarea {
+    width: 100%;
+    height: 100%;
+    border: 1px solid #eee;
+    border-radius: 4px;
+}
+
+.modal-foot {
+    width: 100%;
+    height: 20%;
+    display: flex;
+}
+
+.modal-foot>div {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.modal-btn {
+    background-color: blue;
+    width: 150px;
+    padding: 16px;
+    color: white;
+    border: 1px solid lightblue;
+    border-radius: 8px;
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+    .container {
+        width: 95%;
+    }
+
+    .body>div {
+        height: 440px;
+    }
+
+    .profile {
+        display: block;
+    }
+
+    .profile>div:nth-child(1),
+    .profile>div:nth-child(2) {
+        width: 100%;
+        height: 50%;
+    }
+
+    .profile-img {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .profile-img>img {
+        width: 70%;
+        height: 70%;
+    }
+
+    .profile-intro>div {
+        display: block;
+    }
+
+    .profile-intro>div>div {
+        width: 100%;
+        height: 50%;
+    }
+
+    .project-ul {
+        font-size: 12px;
+    }
+
+    .common-ul>li {
+        margin-top: 0.5rem;
+        margin-bottom: 0.5rem;
+    }
+
+    .modal-btn {
+        width: 75px;
+        padding: 8px;
+    }
+
+
+}
